@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "nokogiri",                  ">= 1.5.0"
   gem.add_runtime_dependency "PageRankr",                ">= 3.2.1"
-  gem.add_runtime_dependency "em-http-request",           ">= 1.0.3"
+  gem.add_runtime_dependency "em-http-request",           ">= 1.1.2"
   gem.add_runtime_dependency "em-synchrony",              ">= 1.0.2"
 
   gem.files         = `git ls-files`.split($\)
