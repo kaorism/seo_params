@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{"Easy way to retrieve main SEO parameters: Google PageRank, Yandex tIC, backlinks, SE site positions and etc."}
   gem.homepage      = "https://github.com/n0ne/seo_params"
 
-  gem.add_runtime_dependency "nokogiri",                  "= 1.5.0"
-  gem.add_runtime_dependency "PageRankr",                "= 3.2.1"
+  gem.add_runtime_dependency "nokogiri",                  ">= 1.5.0"
+  gem.add_runtime_dependency "PageRankr",                ">= 3.2.1"
   gem.add_runtime_dependency "em-http-request",           "= 1.0.3"
   gem.add_runtime_dependency "em-synchrony",              "= 1.0.2"
 
