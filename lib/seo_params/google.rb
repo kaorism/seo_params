@@ -2,11 +2,9 @@
 
 require "page_rankr"
 
-
-require 'em-http-request'
-require "em-synchrony"
-require "em-synchrony/em-http"
-require "em-synchrony/fiber_iterator"
+# require "em-synchrony"
+# require "em-synchrony/em-http"
+# require "em-synchrony/fiber_iterator"
 require 'nokogiri'
 require 'open-uri'
 
